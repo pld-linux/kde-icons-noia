@@ -8,7 +8,7 @@ License:	GPL
 Group:		X11/Amusements
 Source0:	ftp://distfiles.pld-linux.org/src/%{_name}_%{version}.tar.gz
 # Source0-md5:	6efae9732cec5ba8fbedec991c727a8f
-URL:		http://www.kdelook.org/
+URL:		http://kde-look.org/content/show.php?content=3883
 BuildRequires:	rpmbuild(macros) >= 1.123
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
