@@ -6,7 +6,7 @@ Version:	1.00
 Release:	1
 License:	GPL
 Group:		X11/Amusements
-Source0:	http://ic1.deviantart.com/files/f/2003/37/1/0/noiakdeicon100.tgz
+Source0:	http://ftp.pld-linux.org/software/kde/noiakdeicon100.tgz
 # Source0-md5:	afdb36b26c5df58e3273004245fb25c2
 URL:		http://kde-look.org/content/show.php?content=3883
 BuildRequires:	rpmbuild(macros) >= 1.123
