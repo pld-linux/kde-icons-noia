@@ -2,12 +2,12 @@
 Summary:	KDE Icons Theme - Noia
 Summary(pl):	Motyw ikon dla KDE - Noia
 Name:		kde-icons-noia
-Version:	0.95
+Version:	1.00
 Release:	1
 License:	GPL
 Group:		X11/Amusements
-Source0:	ftp://distfiles.pld-linux.org/src/%{_name}_%{version}.tar.gz
-# Source0-md5:	6efae9732cec5ba8fbedec991c727a8f
+Source0:	http://ic1.deviantart.com/files/f/2003/37/1/0/noiakdeicon100.tgz
+# Source0-md5:	afdb36b26c5df58e3273004245fb25c2
 URL:		http://kde-look.org/content/show.php?content=3883
 BuildRequires:	rpmbuild(macros) >= 1.123
 BuildArch:	noarch
@@ -20,7 +20,7 @@ KDE Icons Theme - Noia.
 Motyw ikon dla KDE - Noia.
 
 %prep
-%setup -q -n 'Noia\ KDE\ 0.95'
+%setup -q -n noia_kde_100
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -33,6 +33,8 @@ cp -r 48x48 $RPM_BUILD_ROOT%{_iconsdir}/noia
 cp -r 64x64 $RPM_BUILD_ROOT%{_iconsdir}/noia
 cp -r 128x128 $RPM_BUILD_ROOT%{_iconsdir}/noia
 install index.desktop $RPM_BUILD_ROOT%{_iconsdir}/noia
+
+rm -f `find $RPM_BUILD_ROOT -name .directory`
 
 %clean
 rm -rf $RPM_BUILD_ROOT
