@@ -1,6 +1,6 @@
 %define		_name		Noia_KDE
 Summary:	KDE Icons Theme - Noia
-Summary(pl):	Motyw ikon dla KDE - Noia
+Summary(pl.UTF-8):   Motyw ikon dla KDE - Noia
 Name:		kde-icons-noia
 Version:	1.00
 Release:	1
@@ -16,7 +16,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 KDE Icons Theme - Noia.
 
-%description -l pl
+%description -l pl.UTF-8
 Motyw ikon dla KDE - Noia.
 
 %prep
